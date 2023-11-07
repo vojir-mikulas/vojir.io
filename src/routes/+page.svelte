@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Hero from "$lib/components/Hero.svelte";
+    import AboutMe from "$lib/components/AboutMe.svelte";
+    import Footer from "$lib/components/Footer.svelte";
+</script>
+
+<main class="max-w-screen-sm mx-auto p-4 flex flex-col items-center gap-10">
+    <Hero/>
+    <AboutMe/>
+    <Footer/>
+</main>
